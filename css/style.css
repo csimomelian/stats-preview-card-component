@@ -34,11 +34,12 @@ body {
   justify-content: center;
   background-color: var(--very-darl-blue);
   font-size: 1.5rem;
-  padding: 2rem; }
+  padding: 2rem;
+  position: relative; }
 
 .attribution {
   position: absolute;
-  bottom: 2px;
+  bottom: 0;
   text-align: center;
   color: var(--white);
   font-size: 1rem; }
