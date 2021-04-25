@@ -1,0 +1,17 @@
+{
+  "name": "stats_preview_card_component",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass --watch ./scss/main.scss ./css/style.css"
+  },
+  "homepage": "https://csimomelian.github.io/stats-preview-card-component",
+  "author": "omisc",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
+
+
