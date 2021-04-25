@@ -95,7 +95,8 @@ p {
     display: flex;
     justify-content: space-between;
     font-family: 'Inter', sans-serif;
-    padding-top: 7.5rem; }
+    padding-top: 3rem;
+    flex-direction: column; }
     .card__stats h2 {
       margin: 0 0 0.7rem 0;
       letter-spacing: 1px;
@@ -105,9 +106,18 @@ p {
       font-size: 1.1rem;
       text-transform: uppercase;
       letter-spacing: 1.5px; }
+    .card__stats .item {
+      margin-bottom: 2rem; }
+      @media only screen and (min-width: 761px) {
+        .card__stats .item {
+          margin-bottom: 0; } }
     @media only screen and (min-width: 761px) {
       .card__stats {
         max-width: 34.3rem; } }
+    @media only screen and (min-width: 761px) {
+      .card__stats {
+        flex-direction: row;
+        padding-top: 7.5rem; } }
   .card__image {
     background-color: var(--soft-violet);
     position: relative; }
