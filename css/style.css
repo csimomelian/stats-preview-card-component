@@ -81,7 +81,8 @@ p {
     .card__text p {
       margin-top: 2.9rem;
       margin-bottom: 0;
-      font-size: 1.45rem; }
+      font-size: 1.45rem;
+      color: var(--slightly-transparent-white-headings); }
       @media only screen and (min-width: 761px) {
         .card__text p {
           max-width: 35rem; } }
@@ -98,8 +99,7 @@ p {
     .card__stats h2 {
       margin: 0 0 0.7rem 0;
       letter-spacing: 1px;
-      font-weight: 700;
-      color: var(--slightly-transparent-white-headings); }
+      font-weight: 700; }
     .card__stats p {
       margin: 0;
       font-size: 1.1rem;
